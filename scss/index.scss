@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    background-color: hsl(225, 100%, 94%);
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    font-family: Red Hat Display;
+
+    main{
+        width: 450px;
+       height: 700px;
+        background-color: white;
+        border-radius: 15px;
+        .imagen{
+            img{
+                max-width: fit-content;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                }
+         }
+        .texto{
+            padding: 5px 50px;
+            display: flex;
+            flex-direction: column;
+            .header{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                h1{
+                    font-weight: 900;
+                    text-align: center;
+                    color: hsl(223, 47%, 23%)
+                }
+                p{
+                    text-align: center;
+                    color: hsl(224, 23%, 55%);
+                    margin-top: -5px;
+                }
+            }
+            .middle-part{
+                display: flex;
+                background-color: hsl(225, 100%, 98%);
+                border-radius: 12px;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 30px;
+                margin-top: 10px;
+                .img{
+                    img{
+                        width: 55px;
+                        height: 55px;
+                       
+                    }
+                }
+                .price{
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 50px;
+                    
+                    h2{
+                        display: flex;
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-bottom: unset;
+                        color: hsl(223, 47%, 23%);
+                        
+                    }
+                    p{
+                        margin-top: 4px;
+                        color:hsl(224, 23%, 55%);
+                    }
+                }
+                .a{
+                    a{
+                        color:hsl(245, 75%, 52%);
+                        font-weight: 700;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

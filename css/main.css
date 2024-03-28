@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  display: flex;
+  background-color: hsl(225, 100%, 94%);
+  align-items: center;
+  justify-content: center;
+  margin-top: 12%;
+  font-family: Red Hat Display;
+}
+body main {
+  width: 450px;
+  height: 700px;
+  background-color: white;
+  border-radius: 15px;
+}
+body main .imagen img {
+  max-width: fit-content;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+body main .texto {
+  padding: 5px 50px;
+  display: flex;
+  flex-direction: column;
+}
+body main .texto .header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body main .texto .header h1 {
+  font-weight: 900;
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+}
+body main .texto .header p {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-top: -5px;
+}
+body main .texto .middle-part {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+body main .texto .middle-part .img img {
+  width: 55px;
+  height: 55px;
+}
+body main .texto .middle-part .price {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+body main .texto .middle-part .price h2 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: unset;
+  color: hsl(223, 47%, 23%);
+}
+body main .texto .middle-part .price p {
+  margin-top: 4px;
+  color: hsl(224, 23%, 55%);
+}
+body main .texto .middle-part .a a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */
