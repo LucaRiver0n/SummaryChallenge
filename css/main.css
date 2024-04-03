@@ -7,7 +7,14 @@ body {
   margin-top: 8%;
   font-family: Red Hat Display;
 }
+body img {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 48%;
+}
 body main {
+  z-index: 2;
   width: 450px;
   height: 670px;
   background-color: white;
@@ -27,6 +34,7 @@ body main .texto .header {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 65%;
 }
 body main .texto .header h1 {
   font-weight: 900;
@@ -51,6 +59,10 @@ body main .texto .middle-part {
 body main .texto .middle-part .img img {
   width: 55px;
   height: 55px;
+  z-index: 3;
+  position: absolute;
+  margin-top: -27px;
+  margin-left: -19px;
 }
 body main .texto .middle-part .price {
   display: flex;

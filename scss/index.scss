@@ -5,12 +5,21 @@ body{
     justify-content: center;
     margin-top: 8%;
     font-family: Red Hat Display;
-
+    img{
+        
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        margin-bottom: 48%;
+        
+    }
     main{
+        z-index: 2;
         width: 450px;
        height: 670px;
         background-color: white;
         border-radius: 15px;
+       
         .imagen{
             img{
                 max-width: fit-content;
@@ -26,6 +35,7 @@ body{
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
+                margin-top: 65%;
                 h1{
                     font-weight: 900;
                     text-align: center;
@@ -50,6 +60,10 @@ body{
                     img{
                         width: 55px;
                         height: 55px;
+                        z-index: 3;
+                        position: absolute;
+                        margin-top: -27px;
+                        margin-left: -19px;
                        
                     }
                 }
